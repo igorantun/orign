@@ -2,7 +2,7 @@ import { convert, filter } from "./vinService"
 import { vinCheckResponseFixture, vinResultEntryFixture } from "../test/fixtures"
 
 describe("Vin Service", () => {
-    describe.skip("Response converter", () => {
+    describe("Response converter", () => {
         it("gives empty result when no data is given", () => expect(convert(null)).toEqual(null))
         it("gives empty result when invalid data is given", () => expect(convert({} as any)).toEqual(null))
         it("gives empty result when response contains no data", () =>
