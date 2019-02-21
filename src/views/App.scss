@@ -8,6 +8,16 @@ body {
     font-size: 29px;
 }
 
+.Wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+}
+
 .Logo {
     display: flex;
     width: 119px;
@@ -17,9 +27,12 @@ body {
 
 button {
     width: 100%;
+    margin-top: 24px;
     font-size: 1em;
     font-weight: 100;
     border: none;
+    border-radius: 5px;
+    padding: 16px;
     background: #2196F3;
     color: white;
     cursor: pointer;
@@ -31,7 +44,11 @@ button:disabled {
     cursor: not-allowed;
 }
 
-h3 {}
+h3 {
+    font-weight: 400;
+    font-size: .72em;
+    margin-top: 64px;
+}
 
 @media (max-width: 600px) {
     body {
