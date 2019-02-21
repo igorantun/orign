@@ -2,7 +2,7 @@
 
 This application used to allow users to type a car's [VIN number](https://www.autocheck.com/vehiclehistory/autocheck/en/vinbasics) and see it's `year of production`, `make`, `model` and `trim`.
 
-Important parts of it **were intentionally deleted**. We want you to rewrite the deleted parts so that this application works again and it's tests pass.
+Important parts of it **were intentionally deleted**. We want you to rewrite the deleted parts so that this application works again and its tests pass.
 
 ## What needs to be done?
 
