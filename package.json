@@ -45,7 +45,7 @@
     "jest-css-modules": "1.1.0",
     "jest-localstorage-mock": "2.2.0",
     "lint-staged": "7.1.0",
-    "node-sass": "4.9.0",
+    "node-sass": "4.13.1",
     "poi": "9.6.13",
     "poi-preset-react": "9.2.1",
     "poi-preset-typescript": "9.0.2",
